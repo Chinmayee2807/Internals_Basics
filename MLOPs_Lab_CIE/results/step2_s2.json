@@ -1,0 +1,13 @@
+{
+  "search_type": "grid",
+  "n_folds": 3,
+  "total_trials": 18,
+  "best_params": {
+    "learning_rate": 0.2,
+    "max_depth": 3,
+    "n_estimators": 200
+  },
+  "best_mae": 2.3392,
+  "best_cv_mae": 1.6675,
+  "parent_run_name": "tuning-windcast"
+}

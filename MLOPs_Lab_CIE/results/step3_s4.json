@@ -1,0 +1,16 @@
+{
+  "health_endpoint": "/status",
+  "predict_endpoint": "/infer",
+  "port": 8000,
+  "health_response": {
+    "status": "operational",
+    "service": "WindCast API"
+  },
+  "test_input": {
+    "wind_speed_kmph": 35.4,
+    "blade_length_m": 42.4,
+    "altitude_m": 125.3,
+    "humidity_pct": 43.1
+  },
+  "prediction": 4.4
+}
